@@ -19,7 +19,7 @@ Fuel consumption dataset, FuelConsumption.csv, contains model-specific fuel cons
 * FUEL CONSUMPTION COMB (L/100 km) e.g. 9.2
 * CO2 EMISSIONS (g/km) e.g. 182 --> low --> 0
 
-## Explore the linear relationship between independent variables and dependent variable (C02 emissions)
+### Explore the linear relationship between independent variables and dependent variable (C02 emissions)
 <p align="left">
   <img src="https://imgur.com/7BgFxYs.png" alt="Fuel Consumption vs Co2 Emmissions" />
 </p>
@@ -29,19 +29,25 @@ Fuel consumption dataset, FuelConsumption.csv, contains model-specific fuel cons
 <p align="right">
   <img src="https://imgur.com/ElcKLuT.png" alt="Engine size vs Co2 Emmissions" />
 </p>
+
 ## Results
+
 ### Simple Linear Regression
 
-
-__Accuracy__
+__Accuracy__ :
 Mean absolute error: 23.67
+
 Residual sum of squares (MSE): 937.54
+
 R2-score: 0.76
 
 ### Multiple Linear Regression
 
-__Accuracy__
+__Accuracy__ :
+
 Coefficients: [[12.15449154  7.11953684  5.38396602  3.69373359]]
+
 Residual sum of squares: 554.93
+
 Variance score: 0.86
  
